@@ -1,0 +1,19 @@
+# --- 依赖与构建产物 (必须忽略) ---
+/node_modules
+/oh_modules
+/build
+/.preview
+/.cxx
+/.test
+
+# --- ⚠️ 关键补充 (你漏掉的) ---
+.hvigor/
+.idea/
+local.properties
+oh-package-lock.json5
+
+# --- 其他临时文件 ---
+hvigorfile.ts
+*.swp
+*~
+*.DS_Store
